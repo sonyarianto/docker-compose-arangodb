@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  mysql_db_container:
+  arangodb_db_container:
     image: arangodb:latest
     environment:
       ARANGO_ROOT_PASSWORD: rootpassword
